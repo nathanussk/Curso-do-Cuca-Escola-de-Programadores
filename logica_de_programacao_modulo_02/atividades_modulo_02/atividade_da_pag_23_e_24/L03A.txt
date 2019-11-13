@@ -1,0 +1,15 @@
+algoritmo "tabuada de 2"
+
+var
+numero, mult, cont : inteiro
+inicio
+cont <- 0
+escreval ("digite um número: ")
+leia (numero)
+enquanto (cont <= 10) faca
+mult <- numero * cont
+cont <- cont + 1
+escreval (numero , " x " , cont , "=" , mult)
+
+fimenquanto
+fimalgoritmo

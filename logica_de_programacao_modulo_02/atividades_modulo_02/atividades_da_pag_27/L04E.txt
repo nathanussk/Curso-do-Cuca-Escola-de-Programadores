@@ -1,0 +1,23 @@
+Algoritmo "item e"
+
+Var
+   cont, num, fat, soma : inteiro
+
+Inicio
+   cont <- 1
+
+   repita
+      escreval("Digite um número: ")
+      Leia(num)
+      fat <- 1
+      repita
+         fat <- fat * num
+         num <- num - 1
+      ate(num < 1)
+      soma <- soma + fat
+      escreval("fatorial é ", fat)
+      cont <- cont + 1
+   Ate (cont > 2)
+   escreval("A soma dos fatoriais: ",soma)
+
+FimAlgoritmo

@@ -1,0 +1,21 @@
+algoritmo "item d página 24"
+
+var
+n, r: inteiro
+
+inicio
+
+enquanto (n <20) faca
+r <- n - 2 * (n div 2)
+
+se (r = 0) entao
+
+escreval (n, ", é par.")
+
+senao
+escreval (n, "é ímpar.")
+fimse
+fimenquanto
+
+fimalgoritmo
+

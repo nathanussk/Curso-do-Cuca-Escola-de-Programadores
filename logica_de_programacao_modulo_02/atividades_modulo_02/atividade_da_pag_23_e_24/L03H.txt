@@ -1,0 +1,16 @@
+algoritmo "item h"
+
+var
+fahrenheit, celsius: real
+inicio
+
+
+celsius <- 10
+
+enquanto (celsius <= 100) faca
+   fahrenheit <- (9*celsius + 160)/5
+   escreval (celsius, " Celsius convertido para Fahrenheit é:" ,Fahrenheit)
+   celsius <- celsius +10
+fimenquanto
+
+fimalgoritmo

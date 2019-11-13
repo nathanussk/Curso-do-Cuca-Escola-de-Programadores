@@ -1,0 +1,26 @@
+algoritmo "item B"
+
+var
+ numero, soma, cont : inteiro
+
+inicio
+
+ numero <- 1
+ cont <- 2
+
+   escreval (numero, " + ")
+   soma <- numero + cont
+   enquanto (cont <= 100) faca
+
+   numero <- numero + 1
+   cont <- cont + 1
+
+   escreval (numero, " + ")
+   soma <- soma + cont
+
+   fimenquanto
+   escreva ("A soma dos numeros inteiros de 1 à 100 é: ", soma)
+
+Fimalgoritmo
+
+

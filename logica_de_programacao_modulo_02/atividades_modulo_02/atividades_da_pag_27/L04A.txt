@@ -1,0 +1,17 @@
+algoritmo "quadrados dos números"
+
+var
+
+cont, r, x : inteiro
+
+inicio
+
+cont <- 1
+escreval ("digite o número: ")
+repita
+leia (x)
+r <- x*x
+escreval ("o quadrado de ", x , " é ", r)
+cont <- cont + 1
+ate (cont >= 15 ) e (cont <= 200)
+fimalgoritmo

@@ -1,0 +1,17 @@
+algoritmo "item G"
+
+var
+expoente,base, resposta:real
+inicio
+
+
+escreval ("digite a base: ")
+leia (base)
+escreval ("digite o expoente: ")
+leia (expoente)
+resposta <- base^expoente
+escreval ("potencia de ",base,"^",expoente," é: ", resposta)
+
+
+
+fimalgoritmo

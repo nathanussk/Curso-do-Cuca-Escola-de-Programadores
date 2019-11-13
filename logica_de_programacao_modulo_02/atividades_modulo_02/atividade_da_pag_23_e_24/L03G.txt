@@ -1,0 +1,21 @@
+algoritmo "item g"
+
+var
+n1, n2, n3, cont: inteiro
+
+inicio
+
+n1 <- -1
+n2 <- 1
+cont <- 0
+
+enquanto (cont <= 15) faca
+n3 <- n1 + n2
+n1 <- n2
+n2 <- n3
+
+escreval (n3)
+cont <- cont + 1
+fimenquanto
+
+fimalgoritmo

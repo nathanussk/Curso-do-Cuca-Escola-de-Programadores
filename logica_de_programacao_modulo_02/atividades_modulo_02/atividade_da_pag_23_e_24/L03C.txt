@@ -1,0 +1,22 @@
+algoritmo "L03C"
+
+var
+ numero, soma, cont : inteiro
+
+inicio
+
+
+ cont <- 1
+  enquanto (cont  <= 500) faca
+  soma <- soma + cont
+  
+  cont <- cont + 1
+  escreval ("A soma dos numeros impares são ", soma)
+
+fimenquanto
+
+
+
+Fimalgoritmo
+
+
