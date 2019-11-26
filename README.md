@@ -1,1 +1,1 @@
-# Meus Codigos do VisualG
+# Meus Codigos do Curso
